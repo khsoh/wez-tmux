@@ -196,7 +196,7 @@ function M.apply_to_config(config, _)
 		{
 			key = config.leader.key,
 			mods = "LEADER|" .. config.leader.mods,
-			action = act.SendKey(config.leader.key, config.leader.mods),
+			action = act.SendKey(config.leader),
 		},
 
 		-- Workspaces
